@@ -11,6 +11,6 @@ while True:
     c, addr = s.accept()     # 建立客户端连接。
     print ('连接地址：', addr)
     print(host)
-    d = '欢迎访问菜鸟教程！'.encode()
+    d = '欢迎光临！'.encode()
     c.send(d)
     c.close()                # 关闭连接
